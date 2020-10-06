@@ -12,8 +12,148 @@ html { box-sizing: border-box; }
  facebook   #3b5998
  twitter    #1da1f2
 */
-
-
 body {
-    background-color: #bdc3c7;
+background-color: #bdc3c7;
+}
+
+.foto {
+width: 250px;
+height: auto;
+position: relative;
+}
+
+.obdelnik {
+width: 250px;
+max-width: 100%;
+background-color: #31363b;
+height: 400px;
+position: relative;
+bottom: 4px;
+z-index: -1;
+padding: 0;
+}
+
+.logo {
+width: 50px;
+position: relative;
+top: 22px;
+left: -70px;
+z-index: 2;
+}
+
+.podklad {
+background-color: #b92e81;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+position: relative;
+top: -435px;
+left: 180px;
+z-index: 1;
+}
+
+.jmeno {
+color: white;
+position: relative;
+font-size: 25px;
+bottom: 445px;
+left: 8px;
+margin: 10px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 3px bold;
+}
+
+.odstavecprvni {
+color: rgb(203, 208, 214);
+position: relative;
+font-size: 13px;
+bottom: 450px;
+width: 250px;
+height: auto;
+padding: 19px;
+margin: 0%;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.odstavecdruhy {
+color:  rgb(203, 208, 214);
+position: relative;
+font-size: 13px;
+bottom: 450px;
+width: 250px;
+height: auto;
+padding: 19px;
+padding-top: 0;
+margin: 0;
+margin-bottom: 10px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.portfolio {
+position: relative;
+width: 250px;
+height: 46px;
+bottom: 443px;
+right: 40px;
+display: block;
+color: snow;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+text-align: center;
+padding: 5px 5px;
+margin: 0; 
+}
+
+.facebook {
+position: relative;
+width: 125px;
+height: 46px;
+bottom: 442px;
+right: 40px;
+display: inline-block;
+color: snow;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin: 0;
+padding-top: 8px;
+border-right: 1px solid white;
+}
+
+.twitter {
+position: relative;
+width: 125px;
+height: 46px ;
+bottom: 442px;
+right: 44px;
+display: inline-block;
+color: snow;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin: 0;
+padding-top: 8px;
+}
+
+.odkazy a {
+display: inline-block;
+color: snow;
+text-decoration: none;
+padding: 5px 5px;
+}
+
+.portfolio:hover {
+background-color: #e74c3c ;
+box-shadow: #3f464d 4px 3px 3px;
+}
+.facebook:hover {
+background-color: #3b5998;
+box-shadow: #3f464d 4px 3px 3px;
+}
+
+.twitter:hover {
+background-color: #1da1f2;
+box-shadow: #3f464d 4px 3px 3px;
 }
